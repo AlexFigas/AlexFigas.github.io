@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 // Components
@@ -11,7 +10,7 @@ import Sidebar from './components/sidebar/Sidebar';
 
 function App() {
     return (
-        <div className="App">
+        <>
             <Sidebar />
             <main className='main'>
                 <Home />
@@ -20,7 +19,7 @@ function App() {
                 <Portfolio />
                 <Contact />
             </main>
-        </div>
+        </>
     );
 }
 
