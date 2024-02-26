@@ -9,6 +9,8 @@
     --title-color: hsl(244, 24%, 26%);
     --text-color: hsl(244, 16%, 43%);
     --body-color: hsl(258, 60%, 98%);
+    /* TODO: Change this after avatar */
+    --highlight-color: hsl(240, 70%, 66%);
     --container-color: #fff;
 
     /* Font and Typography */
@@ -102,7 +104,6 @@ img {
     max-width: 1080px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -149,7 +150,7 @@ img {
     50% {
         transform: scale(0.8);
     }
-    
+
     100% {
         transform: scale(1);
     }
@@ -158,4 +159,3 @@ img {
 .btn:hover {
     animation: button-push 0.3s linear 1;
 }
-
